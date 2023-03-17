@@ -1,0 +1,17 @@
+curl http://localhost:8080/math/square/7
+
+curl --request POST \
+    --url http://localhost:8080/reactive-math/multiply \
+    --header 'Content-Type: application/json' \
+    --data '{
+    "firstNumber": 19,
+    "secondNumber": 10
+    }'
+
+ http://localhost:8080/reactive-maths/square/8/reactive-throw
+
+Router
+-------
+curl http://localhost:8080/router/square/7
+curl http://localhost:8080/router/table/7
+
